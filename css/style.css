@@ -1,0 +1,50 @@
+    body {
+        /* overflow: hidden; */
+    }
+    
+    nav {
+        /* position: absolute !important;
+  top: 0;
+  left: 0;
+  right: 0; */
+    }
+    
+    nav.bg-dark {
+        /* background-color: #343a40!important; */
+        background-color: #1e222a!important;
+    }
+    
+    header {
+        background-image: url('../images/new2.webp');
+        height: 100vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff;
+        text-align: center;
+    }
+    
+    header h3 {
+        font-size: 4rem;
+        color: #040507;
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    .login {
+        width: 300px;
+        margin: 100px auto;
+    }
+    
+    .login input {
+        margin-bottom: 10px;
+        background-color: #eaeaea;
+    }
+    
+    .login h4 {
+        color: #888;
+    }
